@@ -1,0 +1,50 @@
+body {
+	width: 1000px;
+	background-color: #ddf;
+	height: 1000px;
+}
+
+h1 {
+	font-size: 30px;
+	font-family: "Brush Script MT", "Lucida Handwriting", "Verdana";
+	color: #000;
+}
+
+#output_ {
+	font-size: 10px;
+	color: #222;
+}
+
+b {
+	padding: 10px;
+}
+
+.safe td:first-child {
+	color: #0A0;
+	background-color: #afa;
+}
+
+.warning td:first-child {
+	color: #A00;
+	background-color: #faf;
+}
+
+img {
+	width:100px;
+	height:100px;
+	
+}
+
+
+.link {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 300px;
+	height: 30px;
+	border: 0px solid black;
+}
+
+table {
+	width: 700px;
+}

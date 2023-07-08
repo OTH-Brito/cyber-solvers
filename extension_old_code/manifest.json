@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Cyber Solvers",
+  "description": "This is a chrome extenssion of the 'Cyber Solvers' team, from Junior Academy.",
+  "version": "1.5",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "img.png"
+  },
+  "permissions": ["tabs","activeTab","scripting"]
+}
