@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Cyber Solvers",
+  "description": "This extension is made of CyberSolvers, second placed in the science competition/program Junior Academy, a part of New york Academy of Sciences.",
+  "version": "2.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "images/icon.png"
+  },
+  "permissions": [ "tabs", "activeTab", "scripting" ]
+}
