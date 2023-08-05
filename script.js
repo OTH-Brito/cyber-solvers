@@ -26,6 +26,7 @@ function onWindowLoad() {
             
             output.innerHTML =
                 "DEBUG = ON<br><br>" +
+                "<b>Branch PageAnalyzer.js</b><br><br>" +
                 "<b> PageAnalyzer():</b><br>" +
                 "<u>All found links:</u> [" + PageAnalyze(url, WebPageData)[0].join("],  [") + "]<br>" +
                 "<u>Authors' email addresses:</u> [" + PageAnalyze(url, WebPageData)[1].join(',  ')+"]";
