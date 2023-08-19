@@ -7,7 +7,7 @@ function onWindowLoad() {
     var output = document.getElementById('output');
 
 
-    chrome.tabs.query({ active: true, currentWindow: true }).then(function (tabs) {
+    chrome.tabs.query({ active: true, currentWindow: true }).then(function (tabs) { // Search what everything in this block stands for
         var activeTab = tabs[0];
         var activeTabId = activeTab.id;
 
